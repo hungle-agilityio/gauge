@@ -24,7 +24,7 @@ gauge install python
 
 ## Setting up and runing Django app
 ```
-python manage runserver
+$ python manage.py runserver
 ```
 
 * Open django app with url [http://localhost:8000/](http://localhost:8000)
@@ -35,12 +35,13 @@ python manage runserver
 ### Set up
 This project requires pip to install dependencies. To install dependencies run :
 ````
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ````
 
 
 ### All specs
 ````
-gauge run specs
+$ cd gauge_tests
+$ gauge run specs
 ````
 This will also compile all the supporting code implementations.
